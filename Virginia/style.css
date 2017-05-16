@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(250, 250, 250);
+}
+h1 {
+  font-family:Arial;
+  margin: 10px;
+  }
+h2 {
+  font-family:Arial;
+  margin: 10px;
+}
+p {
+  margin: 10px;
+  padding: 20px 10px;
+}
+li, p {
+  font-family:Arial;
+  font-size: 16px;
+}
+#header {
+  background-image: linear-gradient(-225deg,
+    rgba(0,101,168,0.6) 0%,
+    rgba(0,36,61,0.6) 50%),
+    url('images/moebius04_big.jpg');
+  text-align: left;
+  height: 32.5vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  position: relative;
+  background-size: cover !important;
+  /*align-items: left;*/
+}
+#header-content {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+#header-content h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+#header-content p {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#footer{
+  clear: both;
+  height: 37px;
+  margin-bottom: 0px;
+  background-image: linear-gradient(to top, rgb(20, 20, 20),rgb(150, 150, 150) 180%);
+  color: rgb(255, 255, 255);
+}
+#footer>p {
+  text-align: right;
+  padding-top: 8px;
+}
+.btn-group-lg {
+  position: absolute;
+  right: 10px;
+  margin-top: 8px;
+  /*padding-left: 41px;*/
+  /*color: #000;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*height:15%;*/
+  /*bottom: 10px;*/
+}
+.btn, .btn:hover {
+  background-size: 100%;
+  background-position: center;
+  /*background-color: transparent;*/
+  border: 1px;
+}
+.fa {
+  font-size: 24px;
+}
+.nav {
+  background-image: linear-gradient(to bottom, rgb(20, 20, 20),rgb(150, 150, 150) 180%);
+  padding-left: 20px;
+}
+.nav-tabs>li {
+  margin-bottom: -3px;
+}
+.nav-tabs>li>a {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(250, 250, 250);
+  /*border-bottom-color: transparent;*/
+}
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom, rgb(228, 228, 228),rgb(250, 250, 250) 100%);
+  border: 0px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 250, 250);
+    border: 0px;
+}
+.tab-content {
+  padding-left: 20px;
+  border-top: 1px solid rgb(250, 250, 250);
+}
+#expertise>ul {
+  padding: 20px 20px 0px 40px;
+}
+#whoiam p {
+  position: absolute;
+  display: inline-block;
+  height: 40vh;
+}
+#whoiam img {
+  position: relative;
+  height: 40vh;
+  float: left;
+  margin: 30px 20px 20px 20px;
+  border: 1px solid rgb(20, 20, 20);
+}
+.panel-heading {
+  padding: 10px 15px 10px 20px;
+}
+.panel-default>.panel-heading {
+    background-image: linear-gradient(to bottom, rgb(20, 20, 20),rgb(150, 150, 150) 180%);
+    color: rgb(255, 255, 255);
+}
+.panel-default>.panel-heading>.panel-title:hover {
+  text-decoration: none;
+}
+.panel {
+  clear: both;
+}
+#quote {
+  text-align: center;
+}
+#author {
+  text-align: right;
+  padding: 0px 15px 10px 10px;
+}
