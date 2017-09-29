@@ -137,4 +137,5 @@ li, p {
 }
 #contacts {
   display: flex;
+  flex-wrap: wrap;
 }
