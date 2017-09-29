@@ -135,3 +135,6 @@ li, p {
   text-align: right;
   padding: 0px 15px 10px 10px;
 }
+#contacts {
+  display: flex;
+}
