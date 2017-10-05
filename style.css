@@ -128,14 +128,24 @@ li, p {
 .panel {
   clear: both;
 }
+#quote_container, #quote_container_en {
+	position: relative;
+	margin: 0 auto;
+}
+#quote_container {
+	max-width: 610px;
+}
+#quote_container_en {
+	max-width: 734px;
+}
 #quote {
   text-align: center;
+  display: inline-grid;
 }
-#author {
-  text-align: right;
-  padding: 0px 15px 10px 10px;
+#quote span {
+  text-align: right !important;
 }
-#contacts {
+#contacts_container {
   display: flex;
   flex-wrap: wrap;
 }
